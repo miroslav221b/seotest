@@ -4,11 +4,17 @@
 
 **Live URL:** https://miroslav221b.github.io/seotest/
 
-## Увімкнення GitHub Pages
+## Увімкнення GitHub Pages (обовʼязково один раз)
 
-1. Репозиторій → **Settings** → **Pages**
-2. **Source:** Deploy from branch `main`, folder `/ (root)`
-3. Зберегти — сайт буде доступний через 1–2 хвилини
+Без цього кроку зʼявиться помилка *«There isn't a GitHub Pages site here»*.
+
+1. Відкрийте: [github.com/miroslav221b/seotest/settings/pages](https://github.com/miroslav221b/seotest/settings/pages)
+2. **Build and deployment → Source:** оберіть **GitHub Actions**
+3. Збережіть. Після push у `main` workflow **Deploy GitHub Pages** опублікує сайт (1–3 хв).
+
+**Альтернатива:** Source → **Deploy from a branch** → Branch `main`, Folder `/ (root)` → Save.
+
+Перевірка: [miroslav221b.github.io/seotest/](https://miroslav221b.github.io/seotest/)
 
 ## Google Search Console
 
