@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miroslav221b.github.io/seotest/sitemap.xml

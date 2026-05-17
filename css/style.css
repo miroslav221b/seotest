@@ -1,0 +1,94 @@
+:root {
+  --bg: #f8f6f3;
+  --text: #1a1a1a;
+  --accent: #2d5a4a;
+  --accent-light: #e8f0ed;
+  --border: #d4cfc7;
+  --warn: #b45309;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--accent);
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+header h1 { font-size: 1.25rem; font-weight: 600; }
+
+nav {
+  background: var(--accent-light);
+  border-bottom: 1px solid var(--border);
+  padding: 0.5rem 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+}
+
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 { font-size: 1.75rem; margin-bottom: 1rem; }
+h2 { font-size: 1.25rem; margin: 1.5rem 0 0.75rem; }
+
+p, ul { margin-bottom: 1rem; }
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card a { color: var(--accent); font-weight: 500; }
+
+.issue-badge {
+  display: inline-block;
+  background: #fef3c7;
+  color: var(--warn);
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.85rem;
+  color: #666;
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+img { max-width: 100%; border-radius: 4px; }
