@@ -1,9 +1,0 @@
-URL,Поточний Title,Довжина,Поточний Meta Description,Довжина,Проблеми
-https://miroslav221b.github.io/seotest/,GreenLeaf Digital — Головна,27,GreenLeaf Digital — агенція цифрового маркетингу та SEO. Тестовий сайт для аудиту технічного SEO.,97,Title без ключового запиту; description короткий (< 150 симв.); немає CTA
-https://miroslav221b.github.io/seotest/about.html,Послуги компанії,16,"Дізнайтеся більше про GreenLeaf Digital — нашу місію, цінності та підхід до SEO.",80,Title не відповідає сторінці «Про нас»; title занадто короткий (16 симв.); description короткий
-https://miroslav221b.github.io/seotest/contact.html,Контакти — GreenLeaf Digital,28,Зв'яжіться з GreenLeaf Digital для консультації з SEO та цифрового маркетингу.,78,Title і description короткі; немає CTA
-https://miroslav221b.github.io/seotest/services.html,Послуги — GreenLeaf Digital,27,"SEO-аудит, веб-дизайн та контент-маркетинг від GreenLeaf Digital.",65,Title і description короткі; не за формулою [ключ | контекст | бренд]
-https://miroslav221b.github.io/seotest/portfolio.html,Портфоліо — GreenLeaf Digital,29,"Приклади проєктів GreenLeaf Digital: сайти, блоги, e-commerce.",62,"Description короткий (62 симв., менше 150)"
-https://miroslav221b.github.io/seotest/faq.html,FAQ — GreenLeaf Digital,23,"Часті питання про SEO-аудит, індексацію та технічну оптимізацію сайтів.",71,Title короткий; description короткий; немає JSON-LD FAQPage
-https://miroslav221b.github.io/seotest/content/duplicate-a.html,Пакет SEO «Старт» — версія A,28,Базовий пакет SEO-оптимізації для невеликих сайтів.,51,Description короткий; немає canonical; немає Product schema
-https://miroslav221b.github.io/seotest/content/duplicate-b.html,Пакет SEO «Старт» — версія B,28,Базовий пакет SEO-оптимізації для невеликих сайтів.,51,Дубльований meta description з duplicate-a; дубльований контент body; немає canonical
